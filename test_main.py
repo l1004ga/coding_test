@@ -46,5 +46,3 @@ print(result)
 #     sum = 0
 #     if value is not None:
 #         value = list(value)
-
-
