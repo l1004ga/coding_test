@@ -36,4 +36,5 @@
 |[순서쌍의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/120836)|filter{}|완료
 |[배열 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/120833)||완료|
 |[진료 순서 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/120835)||진행중|
+|[두 수의 나눗셈](https://school.programmers.co.kr/learn/courses/30/lessons/120806)||완료|
 </details>
