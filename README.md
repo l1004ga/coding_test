@@ -1,11 +1,11 @@
 # Jina's coding test note!
 
-
-## 프로그래머스 LV.0
+<details>
+<summary>프로그래머스 LV.0</summary>
 
 |제목|주요코드|
 |------|---|
-|두수의 합|
+|[두수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/120802)|
 |두수의 곱|
 |몫 구하기|
 |두수의 차|
@@ -36,3 +36,4 @@
 |순서쌍의 개수|filter{}
 |배열 자르기|
 |진료 순서 정하기|
+</details>
