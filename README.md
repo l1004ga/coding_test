@@ -14,7 +14,7 @@
 |[분수의 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/120808)|최소공배수, 최대공약수|22.11.05|
 |[나머지 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120810)||22.10.06|
 |[피자 나눠먹기(3)](https://school.programmers.co.kr/learn/courses/30/lessons/120816)||22.10.06|
-|[중앙값 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120811)||완료|
+|[중앙값 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120811)||22.10.06|
 |[최빈값 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120812)||진행중|
 |[짝수는 싫어요](https://school.programmers.co.kr/learn/courses/30/lessons/120813)||22.10.06|
 |[피자 나눠먹기(1)](https://school.programmers.co.kr/learn/courses/30/lessons/120814)||22.10.06|
