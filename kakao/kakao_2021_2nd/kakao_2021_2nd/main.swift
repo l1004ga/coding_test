@@ -7,7 +7,7 @@
 
 import Foundation
 
-let api = API(XAuthToken: "64a873fee40b1104d52adda4a963d61c", url: "https://kox947ka1a.execute-api.ap-northeast-2.amazonaws.com/prod/users")
+let api = API(XAuthTokenOut: "64a873fee40b1104d52adda4a963d61c", urlOut: "https://kox947ka1a.execute-api.ap-northeast-2.amazonaws.com/prod/users")
 
 let startdto = api.start(problem: 1)
 startdto.problem
