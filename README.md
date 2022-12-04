@@ -29,8 +29,8 @@
 |[문자열 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/120822)|string.reversed() → String 타입 형변환 추가 필요 → String(string.reversed())|22.10.06|
 |[직각 삼각형 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/120823)|readline()! 관련 내용 정리|22.11.09|
 |[짝수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/120831)|filter{}.reduce{}|22.10.06|
-|[양꼬치](https://school.programmers.co.kr/learn/courses/30/lessons/120830)|String 쪼개면 Character/conponents, split|22.11.09|
-|[특정 문자 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/120826)||22.10.07|
+|[양꼬치](https://school.programmers.co.kr/learn/courses/30/lessons/120830)||22.11.09|
+|[특정 문자 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/120826)|String 쪼개면 Character/conponents, split|22.10.07|
 |[각도기](https://school.programmers.co.kr/learn/courses/30/lessons/120829)||22.10.06|
 |[외계행성의 나이](https://school.programmers.co.kr/learn/courses/30/lessons/120834)||진행중|
 |[순서쌍의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/120836)|filter{}|22.11.16
