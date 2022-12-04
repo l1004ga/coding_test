@@ -2,7 +2,7 @@
 //  api.swift
 //  kakao_2021_2nd
 //
-//  Created by danny.ho_2PC on 2022/09/25.
+//  Created by l1004ga on 2022/09/25.
 //
 
 import Foundation
