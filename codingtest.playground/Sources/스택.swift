@@ -1,6 +1,6 @@
 import Foundation
 
-//스택 - 배열의 연장선
+//스택(후입선출) - 배열의 연장선
 
 class Solution {
     func dailyTemperatures(_ temperatures: [Int]) -> [Int] {
