@@ -32,7 +32,7 @@ func solution(_ new_id:String) -> String {
         print(text)
     } else if text.count <= 2 {
 //        let lastvalue = text[text.index(before: text.endIndex)]
-//        while text.count < 3 {
+// a       while text.count < 3 {
 //            text.append(lastvalue)
 //        }
         text += String(text.last!)
@@ -42,7 +42,7 @@ func solution(_ new_id:String) -> String {
     return text
 }
 
-solution("...!@BaT#*..y.abcdefghijklm")
+//solution("...!@BaT#*..y.abcdefghijklm")
 //solution("lm")
 // 아이디 3~15자 사이
 // 알파벳 소문자, 숫자, -, _, . 만 가능

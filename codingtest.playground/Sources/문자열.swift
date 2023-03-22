@@ -32,4 +32,7 @@ class Solution {
 
 let result = Solution()
 
+//result.mostCommonWord(paragraph, banned)
+
+
 //print(result.mostCommonWord(paragraph, banned))
