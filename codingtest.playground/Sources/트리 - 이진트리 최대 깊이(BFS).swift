@@ -73,31 +73,36 @@ class TreeNode {
     }
 }
 
-// 재귀 - 트리 크기에 따라서 구현이 어려울 수 있음(스택 오버플로우 발생) -> 이런 경우 스택을 사용해서 풀어야 함
-// 이유 : 일반 재귀를 쓰면 스택 크기를 시스템이 관리해주는데, 이걸 벗어날 경우 직접 스택을 지정해서 관리 필요
 class Solution {
     func maxDepth(_ root: TreeNode?) -> Int {
+        var treeQueue : Queue<TreeNode> = Queue()
+        var depth : Int = 0
+        var currentRoot : TreeNode = TreeNode()
+        var size : Int = 0
+        // 모든 루트를 큐에 넣어줌
         
         if root == nil {
             return 0
         }
         
-        return max(maxDepth(root!.left), maxDepth(root!.right)) + 1
+        treeQueue.enqueue(root!)
         
-        // 위 코드는 아래 코드를 개선한 최종 코드
-        /*
-        var tree : TreeNode = root!
-        var maxCount : Int = 0
         
-        if tree.left != nil {
-            maxCount = max(maxDepth(tree.left), maxCount)
+        while !treeQueue.isEmpty {
+            depth += 1
+            let currentQueueSize = treeQueue.size
+            for i in 0...(currentQueueSize - 1) {
+                currentRoot = treeQueue.dequeue()!
+                if currentRoot.left != nil {
+                    treeQueue.enqueue(currentRoot.left!)
+                }
+                if currentRoot.right != nil {
+                    treeQueue.enqueue(currentRoot.right!)
+                }
+            }
         }
-        if tree.right != nil {
-            maxCount = max(maxDepth(tree.right), maxCount)
-        }
         
-        return maxCount + 1
-         */
+        return depth
     }
 }
 
@@ -106,5 +111,4 @@ var solution = Solution()
 // Example 1
 solution.maxDepth(TreeNode(3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7))))
 
-dump(solution.maxDepth(TreeNode(3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7)))))
 
