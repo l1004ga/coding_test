@@ -63,6 +63,6 @@ class Solution {
     }
 }
 
-let solution = Solution()
+//let solution = Solution()
 
 //solution.mergeTwoLists(c1, c2)

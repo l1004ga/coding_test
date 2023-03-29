@@ -26,7 +26,7 @@
 
 import Foundation
 
-test("wobgrovw", 6)
+//test("wobgrovw", 6)
 class Solution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
         var start : Int = 0
@@ -70,21 +70,21 @@ class Solution {
 //    }
 }
 
-var solution = Solution()
-test("wobgrovw", 6)
-test("ckilbkd", 5)
-test("dvdf", 3)
-test("abcabcbb", 3)
-test("abba", 2)
-test("aab", 2)
-test("aa", 1)
-test("a", 1)
-
-func test(_ s: String, _ v: Int) {
-    if Solution().lengthOfLongestSubstring(s) == v {
-        print("\(s):\(v) - True")
-    } else {
-        print("\(s):\(v) - False, result: \(Solution().lengthOfLongestSubstring(s))")
-    }
-}
+//var solution = Solution()
+//test("wobgrovw", 6)
+//test("ckilbkd", 5)
+//test("dvdf", 3)
+//test("abcabcbb", 3)
+//test("abba", 2)
+//test("aab", 2)
+//test("aa", 1)
+//test("a", 1)
+//
+//func test(_ s: String, _ v: Int) {
+//    if Solution().lengthOfLongestSubstring(s) == v {
+//        print("\(s):\(v) - True")
+//    } else {
+//        print("\(s):\(v) - False, result: \(Solution().lengthOfLongestSubstring(s))")
+//    }
+//}
 //

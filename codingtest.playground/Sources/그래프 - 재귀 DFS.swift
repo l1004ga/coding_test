@@ -46,28 +46,28 @@ class Solution {
 }
 
 
-var solution = Solution()
-test([
-    ["1","1","1","1","0"],
-    ["1","1","0","1","0"],
-    ["1","1","0","0","0"],
-    ["0","0","0","0","0"]
-  ], 1)
-test([
-    ["1","1","0","0","0"],
-    ["1","1","0","0","0"],
-    ["0","0","1","0","0"],
-    ["0","0","0","1","1"]
-  ], 3)
-
-
-func test(_ grid: [[Character]], _ count: Int) {
-    if Solution().numIslands(grid) == count {
-        print("\(Solution().numIslands(grid)):\(count) - True")
-    } else {
-        print("\(Solution().numIslands(grid)):\(count) - False")
-    }
-}
+//var solution = Solution()
+//test([
+//    ["1","1","1","1","0"],
+//    ["1","1","0","1","0"],
+//    ["1","1","0","0","0"],
+//    ["0","0","0","0","0"]
+//  ], 1)
+//test([
+//    ["1","1","0","0","0"],
+//    ["1","1","0","0","0"],
+//    ["0","0","1","0","0"],
+//    ["0","0","0","1","1"]
+//  ], 3)
+//
+//
+//func test(_ grid: [[Character]], _ count: Int) {
+//    if Solution().numIslands(grid) == count {
+//        print("\(Solution().numIslands(grid)):\(count) - True")
+//    } else {
+//        print("\(Solution().numIslands(grid)):\(count) - False")
+//    }
+//}
 
 
 

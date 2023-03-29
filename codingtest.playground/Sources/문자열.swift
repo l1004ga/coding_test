@@ -30,7 +30,7 @@ class Solution {
     }
 }
 
-let result = Solution()
+//let result = Solution()
 
 //result.mostCommonWord(paragraph, banned)
 

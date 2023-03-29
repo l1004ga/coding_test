@@ -13,6 +13,8 @@
  
  */
 
+import Foundation
+
 public struct Heap<T> {
     var nodes: [T] = []
     let comparer: (T,T) -> Bool
