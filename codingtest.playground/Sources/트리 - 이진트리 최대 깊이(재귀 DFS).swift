@@ -77,13 +77,11 @@ class TreeNode {
 // 이유 : 일반 재귀를 쓰면 스택 크기를 시스템이 관리해주는데, 이걸 벗어날 경우 직접 스택을 지정해서 관리 필요
 class Solution {
     func maxDepth(_ root: TreeNode?) -> Int {
-        
         if root == nil {
             return 0
         }
         
         return max(maxDepth(root!.left), maxDepth(root!.right)) + 1
-        
         // 위 코드는 아래 코드를 개선한 최종 코드
         /*
         var tree : TreeNode = root!
