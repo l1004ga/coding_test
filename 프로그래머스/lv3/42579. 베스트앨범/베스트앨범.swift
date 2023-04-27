@@ -6,16 +6,21 @@ func solution(_ genres:[String], _ plays:[Int]) -> [Int] {
         musicDict[genre, default: []].append((plays[num], num))
     }
     
-    print(musicDict)
-    
-    var musicTupleList : [(String, [(Int,Int)])] = musicDict.enumerated().map{$0.element}
-    print(musicTupleList)
-    musicTupleList.sort(by: { x, y in
-        return x.1.reduce(0, {$0 + $1.0}) > y.1.reduce(0, {$0 + $1.0})
+    var sortPlayDict = musicDict.sorted(by: { x, y in
+        return x.value.reduce(0, {$0 + $1.0}) > y.value.reduce(0, {$0 + $1.0})
     })
+
+
+//    print(musicDict)
+//
+//    var musicTupleList : [(String, [(Int,Int)])] = musicDict.enumerated().map{$0.element}
+//    print(musicTupleList)
+//    musicTupleList.sort(by: { x, y in
+//        return x.1.reduce(0, {$0 + $1.0}) > y.1.reduce(0, {$0 + $1.0})
+//    })
     
     
-    for (key, value) in musicTupleList {
+    for (key, value) in sortPlayDict {
         var playcount = value.sorted(by: {
             return $0.0 > $1.0
         })
