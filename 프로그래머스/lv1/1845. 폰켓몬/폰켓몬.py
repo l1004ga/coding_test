@@ -8,17 +8,4 @@
 
 """
 def solution(nums):
-    
-    number_Dictionary = {}
-    monster_type = 0
-    moster_max = len(nums) / 2
-    
-    for i in nums:
-        if i not in number_Dictionary:
-            number_Dictionary[i] = 1
-            monster_type += 1
-            
-    if monster_type < moster_max:
-        return monster_type
-    elif monster_type >= moster_max:
-        return moster_max
+    return min(len(nums)/2, len(set(nums)))
