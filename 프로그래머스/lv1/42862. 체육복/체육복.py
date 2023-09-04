@@ -17,11 +17,7 @@ def solution(n, lost, reserve):
         cloth_list[l-1] -= 1
         
     # 확인해야하는 친구들
-    
     check = list(set(lost) - set(reserve))
-    # print(check)
-
-    # print(cloth_list)
     
     for l in sorted(check):
         # 왼쪽친구가 2개 가지고 있으면
@@ -44,5 +40,5 @@ def solution(n, lost, reserve):
     for c in cloth_list:
         if c >= 1:
             count += 1
-    # print(count)
-    return count
+            
+    return count 
