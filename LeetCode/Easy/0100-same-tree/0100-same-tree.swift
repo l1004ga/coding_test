@@ -13,34 +13,28 @@
  *     }
  * }
  */
-// class Solution {
-//     func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
-//         guard let tree1 = p else { return p == nil }
-//         guard let tree2 = q else { return q == nil }
-        
-//         if tree1.val != tree2.val {
-//             return false
-//         }
-        
-//         return isSameTree(tree1.left, tree2.left) && isSameTree(tree1.right, tree2.right)
-//     }
-    
-// }
+
+extension TreeNode : Equatable {
+    public static func == (lhs: TreeNode, rhs: TreeNode) -> Bool {
+        return lhs.val == rhs.val && lhs.left == rhs.left && lhs.right == rhs.right
+    }
+}
 
 class Solution {
     func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
-        guard let p = p else {
-            return q == nil
-        }
-        guard let q = q else {
-            return p == nil
-        }
-  
-        if p.val != q.val {
-            return false
-        }
-  
-        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right)
+        
+    return p == q
     }
+    
 }
+
+// func isSameTree(_ p: TreeNode?, _ q: TreeNode) -> Bool {
+//     if p == nil && q == nil { return true }
+//     if p == nil || q == nil { return false }
+//     guard let p = p, let q = q else { return false }
+//     if p.val != q.val { return false }
+    
+//     return isSameTree(p.left, q.left) && isSameTree(p.right, q.right)
+// }
+
 
