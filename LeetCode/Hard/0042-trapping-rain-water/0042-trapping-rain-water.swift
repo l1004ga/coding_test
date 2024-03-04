@@ -1,10 +1,10 @@
 class Solution {
     func trap(_ height: [Int]) -> Int {
         var score = 0
-        var standard = Int(height.firstIndex(of: height.max()!)!)
+        var standard = Int(height.firstIndex(of: height.max()!)!) 
         
         if standard == 0 {
-            score += stopper(height: height, standard: standard)
+            score += stopper(height: height, standard: standard) 
         } else if  standard == height.count-1  {
             var newheight = Array(height.reversed())
             score += stopper(height: newheight, standard: Int(newheight.firstIndex(of: newheight.max()!)!))
@@ -15,13 +15,13 @@ class Solution {
             score += stopper(height: newheight, standard: Int(newheight.lastIndex(of: newheight.max()!)!))
         }
         return score
-    }
+}
     
     func stopper(height: [Int], standard: Int) -> Int {
         var top = standard
         var count : Int = 0
         
-        while top < height.count-2 {
+        while top < h2 {
             let result = countRainPool(height: height, top: top, count: count) // 다음 top, 현재까지 count
             top = result.0
             count = result.1
@@ -60,3 +60,5 @@ class Solution {
         return result
     }
 }
+
+ㅁㅇ
