@@ -9,7 +9,7 @@ def make_k(n, k):
     return k_num[::-1]
 
 def check_conditons(k_num, k):
-    pattern = re.compile('[1-9]*|^ 0$|^0')
+    pattern = re.compile('[1-9]*')
     result = pattern.findall(k_num)
     return list(map(int, filter(None, result)))
 
