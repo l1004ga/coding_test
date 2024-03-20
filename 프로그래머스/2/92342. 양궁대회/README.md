@@ -1,6 +1,6 @@
 # [level 2] 양궁대회 - 92342 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/92342#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/92342) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 03월 21일 01:03:56
+2024년 03월 21일 01:04:23
 
 ### 문제 설명
 
