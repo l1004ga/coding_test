@@ -1,6 +1,6 @@
 # Jina's coding test note!
 
-## 프로그래머스 LV.0
+## 자료구조&알고리즘
 <details>
 
 |제목|새롭게 배운 내용|진행상황|
