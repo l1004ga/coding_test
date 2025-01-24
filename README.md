@@ -3,7 +3,7 @@
 ## 자료구조&알고리즘
 <details>
 
-|제목|내용|진행상황|
+|제목|내용|날짜|
 |------|---|---|
 |[두수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/120802)||22.10.06|
 |[두수의 곱](https://school.programmers.co.kr/learn/courses/30/lessons/120804)||22.10.06|
